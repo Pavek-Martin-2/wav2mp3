@@ -2,8 +2,8 @@
 
 # ffmpeg -i file.wav -vol 1024 -vol 2048 out.mp3
 
-# test command "mpv"
-$c1 ="ffmpeg" # mpv.exe nekde v ceste PATH ( viz. screenshoty "scr\*" )
+# test command "ffmpeg"
+$c1 ="ffmpeg" # ffmpeg.exe nekde v ceste PATH ( viz. screenshoty "scr\*" )
 if (-not (Get-Command $c1 -ErrorAction SilentlyContinue )) {
 Write-Warning "prikaz $c1 nenalezen"
 sleep 5
